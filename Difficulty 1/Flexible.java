@@ -25,7 +25,7 @@ Solution submitted: 2017-01-04 20:38:29s
 import java.util.*;
 import java.math.*;
 
-public class flexible
+public class Flexible
 {
     public static boolean isIn(int[] arr, int finding)
     {
