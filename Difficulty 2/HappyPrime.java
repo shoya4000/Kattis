@@ -21,11 +21,11 @@ Each data set consists of a single line of input. It contains the data set numbe
 Output
 For each data set there is a single line of output. The single output line consists of the data set number, K, followed by a single space followed by the candidate, m, followed by a single space, followed by YES or NO, indicating whether m is a happy prime.
 
-Sample Input 1 	Sample Output 1
-4					1 1 NO
-1 1					2 7 YES
-2 7					3 383 YES
-3 383				4 1000 NO
+Sample Input 1  Sample Output 1
+4                   1 1 NO
+1 1                 2 7 YES
+2 7                 3 383 YES
+3 383               4 1000 NO
 4 1000
 
 Solution submitted: 2017-03-08 20:56:44
@@ -60,3 +60,39 @@ public class HappyPrime
         }
     }
 }
+/*Pre-calculated primes with this as slow:
+import java.util.*;
+
+public class calculatePrimes
+{
+    public static boolean isPrimeSlow(int testcase)
+    {
+        if(testcase <= 1) return false;
+        if(testcase <= 3) return true;
+        if((testcase % 2) == 0 || (testcase % 3) == 0) return false;
+        long s = (long) (Math.sqrt((double) (testcase)) + 1E-7);
+        for(long i = 5; i <= s; i += 6)
+        {
+            if((testcase % i) == 0 || (testcase % (i + 2)) == 0) return false;
+        }
+        return true;
+    }
+
+    public static void main(String [] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+
+        int upto = scanner.nextInt();
+
+        StringBuffer results = new StringBuffer();
+        for(int k = 1; k < upto; k++)
+        {
+            if (isPrimeSlow(k))
+            {
+                results.append("\n" + k);
+            }
+        }
+        System.out.println(results);
+    }
+}
+*/
