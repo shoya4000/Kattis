@@ -20,7 +20,6 @@ Sample Input 3  Sample Output 3
 
 Solution submitted: 2017-03-01 19:25:07
 */
-
 import java.util.*;
 
 public class BestCompression
