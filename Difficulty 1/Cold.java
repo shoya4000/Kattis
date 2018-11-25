@@ -26,9 +26,10 @@ public class Cold
         Scanner s = new Scanner(System.in);
         int numTemps = s.nextInt();
         int lessThanZero = 0;
-        for(int i = 0; i < numTemps; i++){
-        	int nextTemp = s.nextInt();
-        	if(nextTemp < 0) lessThanZero++;
+        for(int i = 0; i < numTemps; i++)
+        {
+            int nextTemp = s.nextInt();
+            if(nextTemp < 0) lessThanZero++;
         }
         System.out.println(lessThanZero);
     }
