@@ -1,0 +1,135 @@
+0 1
+ 1
+0 1 3 2
+ 1 2 1
+0 1 3 2 6 7 5 4
+ 1 2 1 4 1 2 1
+0 1 3 2 6 7 5 4 12 13 15 14 10 11 9 8
+ 1 2 1 4 1 2 1 8  1  2  1  4  1  2 1 
+
+position of 0 is 0
+position of 1 is 1
+therefore:
+	3 = position is opposite 1 in group of 4, so position is 3-1 (3 is 0 indexed length) = 2
+	7 = position is opposite 3 in group of 8, so position is 7-(3-1) = 5
+	15= position is opposite 7 in group of 16, so position is 15-(7-(3-1)) = 10
+	31= position is opposite 15 in group of 32, so position is 31-(7-(3-1)) = 21
+
+	4 = position is opposite 0 in group of 8, so position is 7-0
+	12= position is opposite 4 in group of 16, so position is 15-(7-0)
+	28= position is opposite 12 in group of 32, so position is 31-(15-(7-0)) = 31 - 15 + (7-0)
+
+	dim gives us max group size so dim 4 = 2^4 = 16
+	^unneeded
+	for given number, round up to closest denomination of 2^x for groupsize
+	13 -> 16; 5 -> 8; 4 -> 8
+	that number is opposite (that number - groupsize/2), so (groupsize-1 - position of opposite number)
+		opposite number's position is opposite (that number - groupsize/2/2), so (groupsize/2-1 - position of opposite number)
+			repeat until opposite number is a 0 or 1
+				then collapse back up
+
+position of 0 is 0000	0 is 0000 -> 0001 is 1 => 			0 => 0	1 => 1	10 => 11	11 => 10	100 => 111	101 => 110	110 => 100	111 => 101	1000 => 1111
+position of 1 is 0001	1 is 0001 -> 0010 is 2 => 				2 -> 2+4 -> 2+4+8
+position of 2 is 0011	2 is 0010 -> 0100 is 4 => 
+position of 3 is 0010	3 is 0011 -> 0011 is 3 => 
+position of 4 is 0111	4 is 0100 -> 1000 is 8 => 
+position of 5 is 0110	5 is 0101 -> 0111 is 7 => 
+position of 6 is 0100	6 is 0110 -> 0101 is 5 => 
+position of 7 is 0101	7 is 0111 -> 0110 is 6 => 
+position of 8 is 1111	8 is 1000 ->10000 is 16
+position of 9 is 1110	9 is 1001 -> 1111 is 15
+position of 10is 1100   10is 1010 -> 1101 is 13
+
+length/2 is the number? return length - 1
+length/2 is not the number?
+	if greater,
+		length/2 + length/2/2 is the number? return length/2
+		length/2 + length/2/2 is not the number?
+		if greater,
+
+		if less,
+
+
+			length/2 + length/2/2/2 is the number? return length/2 + length/2/2
+	if less,
+		length/2/2 is the number? return length/2 -1
+		if greater, position + length/2/2
+
+		if less,
+			length/2/2/2 is the number? return length/2 -1
+
+
+
+
+8 is 2^4/2 - 2^3
+if greater than 8, will have 1000 in it else 0000
+if less than 8+4, will have 0100 in it, else 0000
+if greater than 8+2, will have 0010 in it, else 0000
+if less than 8+2
+
+if less than 
+
+1 111111111111111111111111111111111111111111111111111111111111 100000000000000000000000000000000000000000000000000000000000
+
+1 0 111111111111111111111111111111111111111111111111111111111111
+
+if first digit 1, position greater than 2^(n-1).
+if second digit 1, position is greater than 2^(n-1)
+
+both start with 0s or 1s will be in same half
+recurse down
+if not same, in different halves
+
+0 1
+  ^
+00 01 11 10
+	   1  0
+	   ^
+000 001 011 010 110 111 101 100
+				 10  11  01  00
+				  0   1
+				  	  ^
+0000 0001 0011 0010 0110 0111 0101 0100 1100 1101 1111 1110 1010 1011 1001 1000	11000 11001 11011 11010 11110 11111 11101 11100
+										 100  101  111  110  010  011  001  000
+										  00   01   11   10
+										  			 1    0
+										  			 ^
+
+all 1s is in second half - then first half of that, then second half of that
+>n/2 then </2 >/2
+answer > 2/2 = 1 finish
+answer > 4/2 = 2 then < 2/2 = 1 done
+answer > 8/2 = 4 then < 4/2 = 2 then > 2/2 = 1 done
+
+in position 2-3(10-11)
+in position 2(10)
+
+in position 4-7 (100-111)
+in position 4-5 (100-101)
+in position 5 (101)
+
+
+in position 8-15 (1000-1111)
+then in position 8-11 (1000-1011)
+then in position 10-11 (1001-1011)
+then in position 11 (1011)
+
+11-2-1
+
+so 2/2 = 1 done position is 1
+so 4-(4/2) = 2 then + 2/2 = 3
+so 8/2 = 4 then + 4/2 = 6 then 
+
+0 1 - 1 in position 1 		dim1	1	2^1					2^0
+00 11 - 11 in position 2	dim2	2	2^1 + 1				2^1
+000 111 - in position 5		dim3	5	2^2 + 2^1			2^2 + 2^0
+0000 1111 - in position 10	dim4	10	2^3 + 2^1 + 1		2^2 + 2^1
+in position 21 (10101)		dim5	21	2^4 + 2^2 + 2^1		2^4 + 2^2 + 2^0
+							dim6    38
+
+divide by 2^(n-1)
+
+dim zeros at front, first spot
+dim -1 zeros at front, second spot
+dim -2 zeros at front, 3rd or fourth
+dim -3 zeros, 5th to 8th
