@@ -34,6 +34,9 @@ def main(input):
     for i in range(int(p)):
         n, k = input.readline().split(' ')
         k = int(k)
+        # For any Arithemetic Progression, the sum of n terms is given by
+        # Sn=(n/2)[2a+(n−1)d], where a is the first term and d is the common
+        # difference.
         k = int(k * (k + 1) / 2) + k
         print(n + ' ' + str(k))
 
