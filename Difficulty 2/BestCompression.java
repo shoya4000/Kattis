@@ -18,7 +18,7 @@ Sample Input 2  Sample Output 2
 Sample Input 3  Sample Output 3
 31415926535897 40   no
 
-Solution submitted: 2017-03-01 19:25:07
+Solution accepted: 2017-03-01 19:25:07
 */
 import java.util.*;
 

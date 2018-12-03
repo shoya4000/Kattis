@@ -22,7 +22,7 @@ Sample Input 1 	Sample Output 1
 
 SECRET 				4
 
-Solution submitted: 2016-11-03 21:22:49
+Solution accepted: 2016-11-03 21:22:49
 */
 
 import java.util.*;

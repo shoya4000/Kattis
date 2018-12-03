@@ -15,7 +15,7 @@ AB 					3
 Sample Input 2 	Sample Output 2
 CBABCACCC 			1
 
-Solution submitted: 2017-10-16 19:24:43
+Solution accepted: 2017-10-16 19:24:43
 */
 import java.util.*;
 import java.io.*;

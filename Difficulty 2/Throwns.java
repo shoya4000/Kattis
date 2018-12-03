@@ -20,7 +20,7 @@ Sample Input 2 	Sample Output 2
 5 10				2
 7 -3 undo 1 4 3 -9 5 undo 2 undo 1 6
 
-Solution submitted: 2017-11-04 11:10:04
+Solution accepted: 2017-11-04 11:10:04
 */
 import java.util.*;
 import java.io.*;

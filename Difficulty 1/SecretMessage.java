@@ -23,7 +23,7 @@ Sample Input 1      Sample Output 1
 iloveyoutooJill         OsoTvtnheiterseC
 TheContestisOver
 
-Solution submitted: 2017-01-04 20:10:20
+Solution accepted: 2017-01-04 20:10:20
 */
 
 import java.util.*;

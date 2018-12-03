@@ -38,7 +38,7 @@ Sample Input 2 	Sample Output 2
 .##.......
 ..........
 
-Solution submitted: 2017-11-04 12:21:08
+Solution accepted: 2017-11-04 12:21:08
 */
 import java.util.*;
 import java.io.*;

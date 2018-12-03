@@ -28,7 +28,7 @@ Sample Input 1 	Sample Output 1
 3 43
 0
 
-Solution submitted: 2017-10-23 18:46:09
+Solution accepted: 2017-10-23 18:46:09
 */
 import java.util.*;
 import java.io.*;

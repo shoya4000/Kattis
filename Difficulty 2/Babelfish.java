@@ -18,7 +18,7 @@ atcay
 ittenkay
 oopslay
 
-Solution submitted: 2017-01-11 20:32:27
+Solution accepted: 2017-01-11 20:32:27
 */
 
 import java.util.*;

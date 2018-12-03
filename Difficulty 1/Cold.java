@@ -15,7 +15,7 @@ Sample Input 2 	Sample Output 2
 5					5
 -14 -5 -39 -5 -7
 
-Solution submitted: 2018-11-24 23:15:07
+Solution accepted: 2018-11-24 23:15:07
 */
 import java.util.*;
 

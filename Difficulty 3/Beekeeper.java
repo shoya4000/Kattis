@@ -22,7 +22,7 @@ jailaikia
 yeehaaw
 0
 
-Solution submitted: 2017-01-18 20:11:46
+Solution accepted: 2017-01-18 20:11:46
 */
 
 import java.util.*;

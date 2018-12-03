@@ -24,7 +24,7 @@
 # 2 1					3 65
 # 3 10
 
-# Solution submitted: 2018-12-01 23:39:04
+# Solution accepted: 2018-12-01 23:39:04
 
 import sys
 

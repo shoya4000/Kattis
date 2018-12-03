@@ -25,7 +25,7 @@
 # 0.5 20.4
 # 0.2 30.0
 
-# Solution submitted: 2018-12-01 21:00:16
+# Solution accepted: 2018-12-01 21:00:16
 
 import sys
 

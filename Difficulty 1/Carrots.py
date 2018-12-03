@@ -27,7 +27,7 @@
 # 1 5						5
 # sovl problmz
 
-# Solution submitted: 2018-12-01 21:08:33
+# Solution accepted: 2018-12-01 21:08:33
 
 import sys
 

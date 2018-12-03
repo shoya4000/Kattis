@@ -25,7 +25,7 @@
 # 11                 4 * 4 + 4 + 4 = 24
 # 24
 
-# Solution submitted: 2018-12-02 01:34:53
+# Solution accepted: 2018-12-02 01:34:53
 
 import sys
 

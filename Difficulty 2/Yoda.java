@@ -21,7 +21,7 @@ Sample Input 3  Sample Output 3
 2341                YODA
 6785                6785
 
-Solution submitted: 2017-01-11 00:49:49
+Solution accepted: 2017-01-11 00:49:49
 */
 
 import java.util.*;

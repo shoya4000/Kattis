@@ -33,7 +33,7 @@
 # CRUO
 # 3
 
-# Solution submitted: 2018-12-02 21:39:20
+# Solution accepted: 2018-12-02 21:39:20
 
 import sys
 

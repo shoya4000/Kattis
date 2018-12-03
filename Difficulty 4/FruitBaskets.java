@@ -13,7 +13,7 @@ Sample Input 1 	Sample Output 1
 4					1020
 50 60 70 120
 
-Solution submitted: 2017-10-02 20:50:40
+Solution accepted: 2017-10-02 20:50:40
 */
 import java.util.*;
 import java.io.*;

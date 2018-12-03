@@ -19,7 +19,7 @@ Sample Input 2  Sample Output 2
 6 2                 1 2 3 4 5 6
 2 5
 
-Solution submitted: 2017-01-04 20:38:29s
+Solution accepted: 2017-01-04 20:38:29s
 */
 
 import java.util.*;

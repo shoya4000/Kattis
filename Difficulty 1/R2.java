@@ -13,7 +13,7 @@ Sample Input 1  Sample Output 1
 Sample Input 2  Sample Output 2
 4 3                 2
 
-Solution submitted: 2018-11-24 23:23:57
+Solution accepted: 2018-11-24 23:23:57
 */
 import java.util.*;
 

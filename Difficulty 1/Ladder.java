@@ -16,7 +16,7 @@ Sample Input 2 	Sample Output 2
 
 1000 10				5759
 
-Solution submitted: 2016-09-21 17:24:38
+Solution accepted: 2016-09-21 17:24:38
 */
 
 import java.util.*;

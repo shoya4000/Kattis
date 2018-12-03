@@ -16,7 +16,7 @@ Sample Input 1 	Sample Output 1
     9               -5 is odd
     -5
 
-Solution submitted: 2016-09-21 16:41:38
+Solution accepted: 2016-09-21 16:41:38
 */
 import java.util.*;
 

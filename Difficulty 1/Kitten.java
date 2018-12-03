@@ -23,7 +23,7 @@ Sample Input 1 	Sample Output 1
 26 27 28
 -1
 
-Solution submitted: 2017-03-29 19:44:40
+Solution accepted: 2017-03-29 19:44:40
 */
 import java.util.*;
 

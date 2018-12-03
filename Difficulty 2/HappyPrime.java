@@ -28,7 +28,7 @@ Sample Input 1  Sample Output 1
 3 383               4 1000 NO
 4 1000
 
-Solution submitted: 2017-03-08 20:56:44
+Solution accepted: 2017-03-08 20:56:44
 */
 import java.util.*;
 

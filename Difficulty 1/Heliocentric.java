@@ -16,7 +16,7 @@ Sample Input 1  Sample Output 1
 0 1                 Case 4: 239075
 1 0                 Case 5: 11679
 
-Solution submitted: 2017-02-08 18:11:51
+Solution accepted: 2017-02-08 18:11:51
 */
 
 import java.util.*;

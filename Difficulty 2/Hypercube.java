@@ -20,7 +20,7 @@ Sample Input 1  Sample Output 1
 Sample Input 2  Sample Output 2
 3 110 100           2
 
-Solution submitted: 2018-11-26 22:04:21
+Solution accepted: 2018-11-26 22:04:21
 */
 import java.util.*;
 

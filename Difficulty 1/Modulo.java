@@ -48,7 +48,7 @@ Sample Input 3  Sample Output 3
 84
 85
 
-Solution submitted: 2018-11-24 23:49:25
+Solution accepted: 2018-11-24 23:49:25
 */
 import java.util.*;
 

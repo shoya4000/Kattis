@@ -29,7 +29,7 @@ edmonton
 edmonton
 edmonton
 
-Solution submitted: 2016-09-22 13:31:31
+Solution accepted: 2016-09-22 13:31:31
 */
 
 import java.util.*;

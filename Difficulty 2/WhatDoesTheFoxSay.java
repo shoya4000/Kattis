@@ -18,7 +18,7 @@ elephant goes toot
 seal goes ow
 what does the fox say?
 
-Solution submitted: 2017-01-11 19:42:16
+Solution accepted: 2017-01-11 19:42:16
 */
 
 import java.util.*;

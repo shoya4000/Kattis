@@ -30,7 +30,7 @@ Sample Input 1 		Sample Output 1
 4 10
 0 0
 
-Solution submitted: 2016-10-19 20:23:31
+Solution accepted: 2016-10-19 20:23:31
 */
 
 import java.util.*;

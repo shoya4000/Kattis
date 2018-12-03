@@ -21,7 +21,7 @@
 # 2 10					3 501501 1002001 1003002
 # 3 1001
 
-# Solution submitted: 2018-12-02 00:00:09
+# Solution accepted: 2018-12-02 00:00:09
 
 import sys
 

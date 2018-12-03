@@ -6,7 +6,7 @@ Sample Input 1 	Sample Output 1
 7					6
 9901				12
 
-Solution submitted: 2017-03-08 19:54:46
+Solution accepted: 2017-03-08 19:54:46
 */
 import java.util.*;
 import java.io.*;

@@ -14,7 +14,7 @@ yes					Case #3: 333666 6660 022 2777
 foo  bar 			Case #4: 4433555 555666096667775553
 hello world
 
-Solution submitted: 2017-05-03 17:33:19
+Solution accepted: 2017-05-03 17:33:19
 */
 import java.util.*;
 

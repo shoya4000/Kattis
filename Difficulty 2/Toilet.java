@@ -22,7 +22,7 @@ UUUDDUDU            6
                     7
                     4
 
-Solution submitted: 2017-01-04 19:32:28
+Solution accepted: 2017-01-04 19:32:28
 */
 
 import java.util.*;

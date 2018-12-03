@@ -16,7 +16,7 @@ Sample Input 2  Sample Output 2
 aaah                go
 ah
 
-Solution submitted: 2018-11-24 23:38:43
+Solution accepted: 2018-11-24 23:38:43
 */
 import java.util.*;
 

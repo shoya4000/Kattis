@@ -18,7 +18,7 @@ Sample Input 2 	Sample Output 2
 2					8
 WMMMMWWMMMWWMW
 
-Solution submitted: 2016-11-30 18:44:03
+Solution accepted: 2016-11-30 18:44:03
 */
 
 import java.util.*;

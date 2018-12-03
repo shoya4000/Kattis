@@ -27,7 +27,7 @@ l 25
 u 5
 0 0
 
-Solution submitted: 2017-04-07 15:08:46
+Solution accepted: 2017-04-07 15:08:46
 */
 import java.util.*;
 

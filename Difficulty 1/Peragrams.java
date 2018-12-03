@@ -17,7 +17,7 @@ abc 				2
 Sample Input 2 	Sample Output 2
 aab 				0
 
-Solution submitted: 2017-03-22 19:24:05
+Solution accepted: 2017-03-22 19:24:05
 */
 import java.util.*;
 
