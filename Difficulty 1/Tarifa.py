@@ -39,7 +39,6 @@
 # Solution accepted: 2018-12-09 15:48:55
 
 import sys
-import math
 
 
 def main(input):

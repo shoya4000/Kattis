@@ -34,7 +34,6 @@
 # Solution accepted: 2018-12-09 16:02:48
 
 import sys
-import math
 
 
 def main(input):
