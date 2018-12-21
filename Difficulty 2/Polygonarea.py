@@ -42,6 +42,7 @@ def getPoly(input, n):
 
 
 def getArea(n, poly):
+    # https://en.wikipedia.org/wiki/Shoelace_formula
     area = 0
     for i in range(n):
         area += (poly[i][0] * poly[(i + 1) % n][1]) - \
@@ -53,6 +54,13 @@ def getArea(n, poly):
 
 
 def getDirection(n, poly):
+    # https://en.wikipedia.org/wiki/Shoelace_formula
+    # If the points are labeled sequentially in the counterclockwise
+    # direction, then the sum of the above determinants is positive and the
+    # absolute value signs can be omitted;[1] if they are labeled in the
+    # clockwise direction, the sum of the determinants will be negative. This
+    # is because the formula can be viewed as a special case of Green's
+    # Theorem.
     direction = 0
     for i in range(n):
         direction += (poly[(i + 1) % n][0] - poly[i][0]) * \
