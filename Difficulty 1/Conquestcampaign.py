@@ -40,7 +40,7 @@
 # 2 2
 # 2 3
 
-# Solution accepted: 2018-12-21 15:41:54
+# Solution accepted: 2018-12-21 18:50:42
 
 import sys
 
